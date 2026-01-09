@@ -140,6 +140,7 @@ nav .menu {
   gap: 5px;
 }
 .hero-btn2:hover {
+  color: #469165;
   cursor: pointer;
 }
 
