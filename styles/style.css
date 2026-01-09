@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.font-inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+/* Shared Style */
+nav .btn {
+  background-color: #469165;
+  border: none;
+  width: 140px;
+  padding: 10px 11px;
+  border-radius: 4px;
+  color: white;
+}
+nav .btn:hover {
+  background-color: #037a33;
+  color: white;
+  cursor: pointer;
+}
+/* main style */
+header {
+  background-color: #ffffff;
+}
+nav {
+  width: 100%;
+  max-width: 1600px;
+  margin: 0px auto;
+}
+nav .nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 11px 102px;
+}
+.logo-navbar {
+  width: 119px;
+}
+nav .menu {
+  list-style-type: none;
+  display: flex;
+  gap: 27px;
+}
+
+/* hero section */
+.hero-container {
+  width: 100%;
+  max-width: 1600px;
+  height: 576px;
+  background: url("../assets/hero-bg.png");
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 102px;
+}
+.hero-badge {
+  width: 195px;
+  height: 29px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 12px;
+  padding: 7px 10px;
+  gap: 5px;
+}
+.hero-badge img {
+  height: 13px;
+  width: 13px;
+}
+.hero-badge p {
+  font-size: small;
+  color: #469165;
+}
+
+.hero-title {
+  width: 657px;
+  height: 143px;
+}
+.hero-title span {
+  font-weight: 600;
+  line-height: 71px;
+  font-size: 61px;
+  color: white;
+  display: block;
+  text-align: center;
+}
+
+.hero-description span {
+  font-size: 15px;
+  font-weight: 300;
+  color: white;
+  text-align: center;
+  line-height: 20px;
+  display: block;
+}
+
+.hero-button {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+}
+.hero-btn1 {
+  background-color: #469165;
+  border: none;
+  width: 214px;
+  padding: 10px 11px;
+  border-radius: 4px;
+  color: white;
+  font-size: 13px;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.hero-btn1:hover {
+  background-color: #037a33;
+  color: white;
+  cursor: pointer;
+}
+.hero-btn2 {
+  background-color: transparent;
+  border: 1px solid white;
+  width: 200px;
+  padding: 10px;
+  border-radius: 4px;
+  color: white;
+  font-size: 13px;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.hero-btn2:hover {
+  cursor: pointer;
+}
