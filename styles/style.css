@@ -1,3 +1,5 @@
+/* My Display size 1366*768. Worked on 90% screen size in chrome */
+
 * {
   margin: 0;
   padding: 0;
@@ -192,6 +194,8 @@ nav .menu {
   gap: 20px;
 }
 .feature-container {
+  width: 100%;
+  max-width: 1600px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -309,4 +313,45 @@ nav .menu {
   font-size: 13px;
   text-align: center;
   color: #627382;
+}
+
+/* Footer CSS  */
+.footer-container {
+  height: 297px;
+  width: 100%;
+  max-width: 1600px;
+  gap: 68px;
+  background-color: #001931;
+  display: flex;
+  flex-direction: column;
+  padding: 102px 102px 25px 102px;
+}
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-content-logo {
+  width: 118px;
+  height: 51px;
+}
+.social-link {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+}
+.social-link span {
+  font-weight: 500;
+  font-size: 17px;
+  text-align: center;
+  color: white;
+}
+.social-icon {
+  display: flex;
+  gap: 13px;
+}
+.copyright {
+  text-align: center;
+  color: #fafafa;
+  border-top: 1px solid rgb(87, 83, 83);
+  padding-top: 20px;
 }
